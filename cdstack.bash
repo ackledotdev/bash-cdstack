@@ -19,7 +19,8 @@ _CD_STACK=("$PWD")
 _CD_STACK_PTR=0
 
 cd() {
-	builtin cd "$@"
+	#builtin cd "$@"
+	z "$@"	# use zoxide (assuming alias z) instead of bash's builtin `cd`
 	local ret=$?
 	((ret == 0)) || return "$ret"
 
