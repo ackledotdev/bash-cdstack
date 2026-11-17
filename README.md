@@ -1,7 +1,7 @@
 bash-cdstack
 ============
 
-Store the last X directories visited using `cd` in bash
+Store the last X directories visited using `z` (the zoxide alias) in bash
 
 This was **cloned** from [Dave Eddy](https://github.com/bahamas10)'s version (see first commit). The only modification at this point is using [zoxide](https://github.com/ajeetdsouza/zoxide) instead of bash's builtin `cd` (see second commit).
 
